@@ -1,0 +1,47 @@
+<header>
+    <div class="container">
+        <div class="top-bar">
+            <!-- Main Logo -->
+            <logo></logo>
+            <!-- Phone Number | Address | Opening Time -->
+            <header-detail></header-detail>
+        </div>
+    </div>
+</header>
+<div class="banner">
+    <!-- Banner Img -->
+    <div class="bannerImg" ng-bind-html="bannerImg">
+        {{bannerImg}}
+    </div>
+    <!-- Banner Text -->
+    <div class="bannerTxt">
+        <h1 class="text-center">{{bannerTitle}}
+            <span></span>
+        </h1>
+        <div class="container">
+            <div class="col-sm-8 col-sm-offset-2 text-center">
+                <p class="text-center" ng-bind-html="bannerTxt">
+                    {{bannerTxt}}
+                    <span></span>
+                </p>
+            </div>
+        </div>
+        <!-- Navigation Menu -->
+        <div id="navMenu" class="container">
+            <ul class="list-unstyled list-inline">
+                <li>
+                    <a href id="specialityMarker">Spezialitäten</a>
+                </li>
+                <li>
+                    <a href id="menuMarker">Speisekarte</a>
+                </li>
+                <li>
+                    <a href id="mapMarker">Finde uns</a>
+                </li>
+                <li>
+                    <a href id="reservationMarker">Reservierung</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
