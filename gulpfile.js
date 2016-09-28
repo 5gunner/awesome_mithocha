@@ -43,6 +43,7 @@ gulp.task('scripts', function() {
             'js/angular-app.js',
             'js/services/*.js',
             'js/rootscope/*.js',
+            'js/route.js',
             'views/**/*.js'
         ])
         .pipe(maps.init())

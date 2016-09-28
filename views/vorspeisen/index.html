@@ -1,0 +1,5 @@
+<div class="container vorspeise-wrapper">
+    <div class="col-sm-4" ng-repeat="vorspeise in Vorspeisen | orderBy:'-'">
+        <menu-page title="vorspeise.title" price="vorspeise.price" number="vorspeise.number" details="vorspeise.details" allergie="vorspeise.allerige" vegan="vorspeise.vegan"></menu-page>
+    </div>
+</div>
